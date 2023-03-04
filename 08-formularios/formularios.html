@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulários</title>
+    </head>
+
+    <!-- form = formulario, action = ele manda as informações para o arquivo que vc quer, metodo get fica na url-->
+    <body>
+        <form action="cadastro.php" method="get">
+            <fieldset>       
+                <legend>Informações Pessoais</legend>
+                <!-- legend cria uma legenda em cima da extrutura -->
+                Nome:<br>
+                <input type="text" name="nome"><br>
+                <!-- name é como se fosse o nome da variável -->
+
+                Email:<br>
+                <input type="email" name="email"><br>
+
+                Senha:<Br>
+                <input type="password" name="senha"><br>
+                <br>
+                <input type="submit" name="btn-enviar" value="Enviar">
+            </fieldset>
+
+            <!-- fieldset faz um quadro atras de todo conteudo  -->
+            <br>
+            <fieldset>
+                Time:<br>
+                <input type="radio" name="Time" value="Corinthians"> Corinthians
+                <br>
+                <input type="radio" name="Time" value="Flamengo"> Flamengo
+                <br>
+                <input type="radio" name="Time" value="Vasco"> Vasco
+                <br>
+                <input type="radio" name="Time" value="Brasil"> Brasil
+                <br>
+                
+            </fieldset> <br>
+
+            Time:<br>
+                <input type="radio" name="Time" value="Corinthians"> Corinthians
+                <br>
+                <input type="radio" name="Time" value="Flamengo"> Flamengo
+                <br>
+                <input type="radio" name="Time" value="Vasco"> Vasco
+                <br>
+                <input type="radio" name="Time" value="Brasil"> Brasil
+                <br>
+                <!-- radio cria um botão click -->
+
+            Nome:<br>
+            <input type="text" name="nome"><br>
+            <!-- name é como se fosse o nome da variável -->
+
+            Email:<br>
+            <input type="email" name="email"><br>
+
+            Senha:<Br>
+            <input type="password" name="senha"><br>
+            <br>
+            <input type="submit" name="btn-enviar" value="Enviar">
+            <!-- submit = faz um botão, valeu é a descriçaõ que vai no botão-->
+            
+        </form>
+    </body>
+</html>
